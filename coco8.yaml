@@ -1,0 +1,19 @@
+# YOLOv5 dataset configuration
+# Example usage: python train.py --data coco8.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco8  ← downloads here (1 MB)
+
+# Train/val/test sets as directories (relative to 'path') 
+path: /content/drive/MyDrive/TalkFile_s.v3i.yolov8  # 데이터셋의 루트 디렉토리
+train: train  # 훈련 이미지 디렉토리
+val: valid    # 검증 이미지 디렉토리
+test: test    # 테스트 이미지 디렉토리 (선택 사항)
+
+# 클래스 이름 정의
+names:
+  0: stop  # 정지
+  1: go    # 직진
+  2: right # 우회전
+  3: left  # 좌회전
