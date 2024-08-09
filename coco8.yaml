@@ -6,7 +6,7 @@
 #     └── coco8  ← downloads here (1 MB)
 
 # Train/val/test sets as directories (relative to 'path') 
-path: /content/drive/MyDrive/TalkFile_s.v3i.yolov8  # 데이터셋의 루트 디렉토리
+path: /content/yolov5/Yolov5Dataset  # 데이터셋의 루트 디렉토리
 train: train  # 훈련 이미지 디렉토리
 val: valid    # 검증 이미지 디렉토리
 test: test    # 테스트 이미지 디렉토리 (선택 사항)
